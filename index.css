@@ -1,0 +1,60 @@
+html * {
+  font-family: "PT Sans";
+}
+body {
+  margin: 2%;
+  font-family: "Dosis", sans-serif;
+  color: #121213;
+  font-size: 14px;
+  line-height: 20px;
+}
+.logo {
+  height: 110px;
+  width: 150px;
+  background-color: rgb(228, 115, 17);
+}
+.customnavbar {
+  width: 70%;
+  margin: auto;
+  background-color: white;
+  position: relative;
+  float: right;
+}
+
+.icon-spec {
+  height: 60px;
+  width: 60px;
+  display: block;
+  margin-bottom: 20px;
+  /* Other styles here */
+}
+.icon-spec ~ h5 {
+  margin-top: 0px;
+  font-size: 17px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.icon-spec ~ p {
+  color: grey;
+  margin-bottom: 20px;
+}
+.icon-spec ~ a {
+  color: rgb(146, 146, 152);
+  margin-top: 15px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: "Dosis";
+  text-transform: uppercase;
+
+  text-decoration: none;
+}
+.icon-spec ~ a:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(228, 115, 17);
+  color: inherit;
+}
